@@ -1,5 +1,5 @@
 name: ai_voicer
-description: N-Gen Voice Studio - AI Text-to-Speech App
+description: N-Gen Voice Studio - Natural Voice. Clear Speech. Creator Ready.
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -11,6 +11,7 @@ dependencies:
     sdk: flutter
   flutter_tts: ^4.0.2
   google_fonts: ^6.1.0
+  shared_preferences: ^2.2.2
 
 dev_dependencies:
   flutter_test:
