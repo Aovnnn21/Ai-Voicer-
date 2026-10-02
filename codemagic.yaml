@@ -4,7 +4,6 @@ workflows:
     max_build_duration: 60
     environment:
       flutter: stable
-      android: true
     scripts:
       - name: Get dependencies
         script: flutter pub get
