@@ -6,8 +6,12 @@ workflows:
       flutter: stable
     scripts:
       - name: Get dependencies
-        script: flutter pub get
+        script: |
+          cd your_flutter_project_folder
+          flutter pub get
       - name: Build Release APK
-        script: flutter build apk --release
+        script: |
+          cd your_flutter_project_folder
+          flutter build apk --release
     artifacts:
-      - build/app/outputs/flutter-apk/app-release.apk
+      - your_flutter_project_folder/build/app/outputs/flutter-apk/app-release.apk
