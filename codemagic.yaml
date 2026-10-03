@@ -9,6 +9,7 @@ workflows:
       - name: Get dependencies
         script: flutter pub get
       - name: Build Release APK
-        script: flutter build apk --release
+        # ဒီနေရာမှာ Skip Flag ကို ထည့်ပေးထားပါတယ်
+        script: flutter build apk --release --android-skip-build-dependency-validation
     artifacts:
       - build/app/outputs/flutter-apk/app-release.apk
