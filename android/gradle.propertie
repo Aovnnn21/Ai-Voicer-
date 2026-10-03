@@ -1,0 +1,6 @@
+org.gradle.jvmargs=-Xmx4G -XX:MaxMetaspaceSize=2G -XX:+HeapDumpOnOutOfMemoryError
+android.useAndroidX=true
+android.enableJetifier=true
+# ဒီ Line ၂ ခုက New DSL Error ကို ဖြေရှင်းပေးပါတယ်
+android.newDsl=false
+android.builtInKotlin=false
